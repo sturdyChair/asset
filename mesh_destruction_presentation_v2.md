@@ -32,7 +32,7 @@
 ### **2: 물리 시뮬레이션 환경 구축**
 - Nvidia PhysX를 프로젝트에 적용 (해결)
 - 간단한 지형과 동적 액터 생성 테스트 (해결)
-
+>![img](https://github.com/sturdyChair/asset/blob/main/%EC%BA%A1%EC%B2%98.PNG)
 
 ### **3: 데이터 저장, 재사용 구현**
 - Voronoi Cell class의 정점 정보를 이용해 (1)vertex buffer 구성 / (2)재사용 가능한 Mesh로 export
