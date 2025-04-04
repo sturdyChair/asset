@@ -25,6 +25,7 @@
 - 2. 복셀 기반의 브루트포스를 이용한 유사 보로노이 다이어그램 생성
 	> 공간을 격자로 나눈 후 각 복셀이 어떤 파티클과 가장 가까운지 계산, 각 파티클에 포함된 복셀을 기준으로 정점 생성
  	> 각 격자마다 병렬 계산이 가능
+ > ![img](https://github.com/sturdyChair/asset/blob/main/VV.png)
 - 3. 하나의 평면을 이용한 메쉬 양분할
 	> 비교적 알고리즘이 간단
 
@@ -36,7 +37,7 @@
 ### **3: 데이터 저장, 재사용 구현**
 - Voronoi Cell class의 정점 정보를 이용해 (1)vertex buffer 구성 / (2)재사용 가능한 Mesh로 export
 - 디테일 레벨에 따라 Voronoi Cell 여러개를 하나의 Bone에 할당, 시뮬레이트 결과 저장
-
+ > ![img](https://github.com/sturdyChair/asset/blob/main/Bone.png)
 ---
 
 
