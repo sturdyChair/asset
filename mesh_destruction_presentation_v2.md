@@ -10,7 +10,7 @@
 
 ## **2. 목표**
 - 보로노이 다이어그램을 이용한 메쉬 분할 시스템 개발
-  > ![img](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/518e159b-cb0f-4bc8-bd89-74473ed23657/chaosdestruction_hero.png)
+  > ![img](https://github.com/sturdyChair/asset/blob/main/chaosdestruction_hero.png)
 - 물리적 파괴 효과의 자연스러운 구현
 - 시뮬레이트 결과를 키프레임으로 저장, 재사용 기능
 - Extra) Blender의 Bisect와 같은 기능을 동적으로 구현
