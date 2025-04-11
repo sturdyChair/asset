@@ -17,15 +17,11 @@
 
 - **최적화**  
   그리드 기반 입자 분할, 인접 그리드의 입자 계산후 탈락하는 파티클을 제거, 퍼포먼스 향상
+  >![img](https://github.com/sturdyChair/asset/blob/main/Remove%20Particle.png)
 
 - **셀 출력 시각화**  
   각 셀을 메쉬 형태로 변환하여 3D 씬에서 시각적으로 확인 가능함
 >![img](https://github.com/sturdyChair/asset/blob/main/Cube%20Fracturing.PNG)
-
-
-### TODO
-- **디버깅 도구 추가**  
-  -셀 ID, 부피, 중심좌표, 인접 셀 등을 표시하여 디버깅 및 개발 편의성 향상
   
 ---
 
@@ -67,6 +63,7 @@
 - **삼각형 누락 버그**  
   BSP 트리 구성 중 삼각형이 누락되는 현상 발견, 삼각형 - 평면 절단 함수에 assert를 이용해 edge case 발견  
   평면이 삼각형의 정점을 지나가는 경우를 고려하지 못함(현재 수정됨)
+>![img](https://github.com/sturdyChair/asset/blob/main/Split%20Triangle.png)
   
 - **중복 정점**  
   최초 구현시 정점 위치만을 이용해 중복 정점을 제거하고 나머지 정보들은 선형 평균함 -> 메쉬 품질 저하
