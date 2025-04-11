@@ -48,7 +48,7 @@
 
 ### 트러블 슈팅
 - **BSP 절단면 선택 기준**
-  ![img](https://commons.apache.org/proper/commons-geometry/images/tutorials/bsp-tree/hex-unbalanced.svg)
+>![img](https://commons.apache.org/proper/commons-geometry/images/tutorials/bsp-tree/hex-unbalanced.svg)
   볼록 다면체의 경우 위와 같이 트리 불균형이 일어남
   현재 메쉬 상의 랜덤 삼각형을 사용 (고정 인덱스 사용시에 비해 2배 정도 성능 향상)
   
