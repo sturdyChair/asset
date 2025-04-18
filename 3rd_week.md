@@ -26,12 +26,14 @@
 ### 테셀레이션 + 메쉬 불리언
 - 메쉬를 포함하는 바운딩 박스에 대한 보로노이 테셀레이션 + 기존 메쉬와 Intersect 연산 => 다양한 모양의 메쉬를 사전 분할 가능
 
-### 물리연산
+### 물리연산  
+  ![img](https://github.com/sturdyChair/asset/blob/main/dynamic_destroy-ezgif.com-video-to-gif-converter.gif)  
 - nvidia physx를 이용, 분할된 각 조각을 시뮬레이트 하고 렌더링에 반영  
 - 시뮬레이션 결과를 0.25초 간격으로 KeyFrame화 저장, 이진 파일로 출력  
 - 출력 결과를 로딩, 물리 엔진 없이 파괴 애니메이션 재생
 
 ### 유사 물리 반응
+  ![img](https://github.com/sturdyChair/asset/blob/main/Simul_destroy-ezgif.com-video-to-gif-converter.gif)  
 - 물리 반응을 하지 않는 콜라이더 생성
 - 충격 발생시 위치, 방향, 법선 벡터 계산  
 - 시뮬레이트 결과 중 가장 유사한 것을 재생
