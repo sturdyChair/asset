@@ -52,6 +52,8 @@
 ---
 
 ## 동적 메쉬 절단
+![img](https://github.com/sturdyChair/asset/blob/main/Blademode-ezgif.com-video-to-gif-converter.gif)
+
 
 ### 간선 - 평면 교차 연산  
 - 스키닝 연산이 필요하기 때문에 GPU 가속 필수 -> dx11 compute shader 사용
