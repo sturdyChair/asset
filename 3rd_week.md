@@ -9,7 +9,7 @@
   하나의 입자를 기준으로 정의된 셀에 대해, 또다른 입자와 해당 입자 사이의 선분을 절반으로 나누는 수직 평면을 기준으로 셀을 계속해서 절단  
 - 최적화 : 
   테셀레이션 구현 상, 현재 셀을 절단하는 평면과 입자의 거리는 (두 입자 사이의 거리) / 2
-  즉, 절단 이전 셀 내에서 입자로부터 가장 멀리 떨어진 점과의 거리보다 입자와 평면 사이의 거리가 더 길면 해당 평면은 셀에 영향을 줄 수 없음
+  즉, 절단 이전 셀 내에서 입자로부터 가장 멀리 떨어진 점과의 거리보다 입자와 평면 사이의 거리가 더 길면 해당 평면은 셀에 영향을 줄 수 없음  
   ![img](http://github.com/sturdyChair/asset/blob/main/opt.png)
   
 ### 중복 정점 제거 알고리즘 - 해쉬 충돌
@@ -38,12 +38,15 @@
 
 ### 절단면 텍스쳐링
 - tri-planar uv mapping :  
-  절단면의 법선 벡터를 이용, xy, xz, yz 평면 중 가장 유사한 평면을 기준으로 uv 매핑
+  ![img](https://blog.kakaocdn.net/dn/EC6VO/btrQlIg1eRT/4LGlhQf1DrKUKYiH1tHwL0/img.jpg)
   
 ### TODO
 - 속성 조절 기능  
-  x, y, z 크기 배율 : 각 크기 배율에 따라 셀의 모양이 달라지는 경향성을 가지도록 구현 (돌 쪼개는 이미지 & 나무 찢어지는 이미지)  
+  x, y, z 크기 배율 :
+  ![img](https://github.com/sturdyChair/asset/blob/main/Euclidean_Voronoi_diagram.svg.png)  
+  ![img](https://github.com/sturdyChair/asset/blob/main/Euclidean_Voronoi_diagram_Long.png)  
   조각 결합 : 조각의 최소/ 최대 결합 수치 조정, 인접 조각들이 결합되도록 구현  
+- 다른 조각화 방식 구현  
 
 ---
 
@@ -52,12 +55,13 @@
 ### 간선 - 평면 교차 연산  
 - 스키닝 연산이 필요하기 때문에 GPU 가속 필수 -> dx11 compute shader 사용
 - 입력 정보 :  
-  정점, 인덱스, 본 행렬들, 평면 법선 + d
+  정점, 인덱스, 본 행렬들, 평면
 - 출력 정보 :  
   평면 위 정점의 인덱스, 아래 정점의 인덱스, 새로운 정점 정보
 
 ### 메쉬 재구성
 - 정점 보간
+  ![img](https://github.com/sturdyChair/asset/blob/main/lerpVert.png)  
   보간 후 새로운 정점의 Bone weight는 인접 정점을 통해 계산
 
 - pivot 계산  
