@@ -69,7 +69,6 @@
 
 - pivot 계산  
   평면 위 메쉬 : 절단면 normal 방향으로 pivot
-  평면 아래 메쉬 : 절단면 normal * -1 방향으로 pivot
 
 ### TODO
 - 절단면 구현  
