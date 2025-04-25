@@ -3,16 +3,12 @@
 ## 정적 메쉬 파괴  
 
 ### 프렉쳐 모드  
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="50" height="50"/>  
-
-
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="200" height="200"/>  
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20comb.gif" width="200" height="200"/>  
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20voxel.gif" width="200" height="200"/>  
   
 ### TODO
-- 속성 조절 기능  
-  x, y, z 크기 배율 :
-  ![img](https://github.com/sturdyChair/asset/blob/main/Euclidean_Voronoi_diagram_Long.png)  
-  조각 결합 : 조각의 최소/ 최대 결합 수치 조정, 인접 조각들이 결합되도록 구현  
-- 다른 조각화 방식 구현  
+
 
 ---
 
