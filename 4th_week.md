@@ -22,23 +22,22 @@
 ---
 
 ## 동적 메쉬 절단
-![img](https://github.com/sturdyChair/asset/blob/main/Blademode-ezgif.com-video-to-gif-converter.gif)
 
 
-### 간선 - 평면 교차 연산  
-- 스키닝 연산이 필요하기 때문에 GPU 가속 필수 -> dx11 compute shader 사용
-- 입력 정보 :  
-  정점, 인덱스, 본 행렬들, 평면
-- 출력 정보 :  
-  평면 위 정점의 인덱스, 아래 정점의 인덱스, 새로운 정점 정보
 
-### 메쉬 재구성
-- 정점 보간
-  ![img](https://github.com/sturdyChair/asset/blob/main/lerpVert.png)  
-  보간 후 새로운 정점의 Bone weight는 인접 정점을 통해 계산
+### 래그돌  
+  <img src="https://github.com/sturdyChair/asset/blob/main/cut_0.gif" width="600" height="400"/>
+- PxArticulation 사용([https://nvidia-omniverse.github.io/PhysX/physx/5.1.3/docs/Articulations.html])  
+- 절단된 객체에 래그돌 적용
+- 절단면에 따라 래그돌 분리
 
-- pivot 계산  
-  평면 위 메쉬 : 절단면 normal 방향으로 pivot
+### 조각 처리  
+  <img src="https://github.com/sturdyChair/asset/blob/main/dissolve.gif" width="600" height="400"/>
+- 절단 횟수에 따라 수명 적용 (부모 수명 * 0.5)  
+- 수명이 다한 조각은 dissolve 이후 제거
+
+### 절단면  
+-
 
 ### TODO
 - 절단면 구현  
