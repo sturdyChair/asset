@@ -3,12 +3,21 @@
 ## 정적 메쉬 파괴  
 
 ### 프렉쳐 모드  
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="400" height="400"/>
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20comb.gif" width="400" height="400"/>
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20voxel.gif" width="400" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="600" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20comb.gif" width="600" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20voxel.gif" width="600" height="400"/>
   
-### TODO
+### 내부 머터리얼 선택  
+  <img src="https://github.com/sturdyChair/asset/blob/main/material.gif" width="600" height="400"/>
 
+### 프렉쳐 옵션  
+- 조각 뭉치기  
+  <img src="https://github.com/sturdyChair/asset/blob/main/cluster.gif" width="600" height="400"/>
+- 크기 비율  
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracture%20scale.gif" width="600" height="400"/>
+  
+### TODO  
+- 단계적 조각 파괴
 
 ---
 
