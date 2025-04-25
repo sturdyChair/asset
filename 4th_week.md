@@ -64,6 +64,7 @@
 ---
 
 ## 캐릭터 부상
+   <img src="https://github.com/sturdyChair/asset/blob/main/wound_prototype.PNG" width="600" height="400"/>
 
 ### 정점 셰이더 메쉬 클리핑
 
