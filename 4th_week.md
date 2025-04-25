@@ -44,14 +44,21 @@
    <img src="https://github.com/sturdyChair/asset/blob/main/non-convex%20face%20error.PNG" width="400" height="400"/>
 
   - Ear Clipping
+    
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7jQ25bCjYeFm7hlblz1l1u1x7xM6qwtI8bnW_Ca4_QCBBX0V-QvR1LjrBVUqQsxkNgbcpiJjix2Dbo7yEYBNqVCm8f_f2CKuunF1DFdI2nFyyu7_Kw6PKIyZ3fqLIkPgfaRg4CKctihv/s512/99..jpg" width="600" height="400"/>
-    
    
-    
+  - 긴 삼각형
 
-### TODO
+    <img src="https://github.com/sturdyChair/asset/blob/main/long%20triangle%20problem.png" width="400" height="400"/>
 
+  
+### 한계점
+  - Solid Mesh에만 적용 가능   
+  - 새로운 절단면에서 긴 삼각형이 등장하면 보기 좋지 않음
 
+### 대안
+  - Mesh Snapshot   
+    메쉬의 현재 상태를 통해 static mesh 생성, 절단
 
 
 
