@@ -44,7 +44,7 @@
    <img src="https://github.com/sturdyChair/asset/blob/main/non-convex%20face%20error.PNG" width="400" height="400"/>
 
   - Ear Clipping
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7jQ25bCjYeFm7hlblz1l1u1x7xM6qwtI8bnW_Ca4_QCBBX0V-QvR1LjrBVUqQsxkNgbcpiJjix2Dbo7yEYBNqVCm8f_f2CKuunF1DFdI2nFyyu7_Kw6PKIyZ3fqLIkPgfaRg4CKctihv/s512/99..jpg" width="400" height="400"/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7jQ25bCjYeFm7hlblz1l1u1x7xM6qwtI8bnW_Ca4_QCBBX0V-QvR1LjrBVUqQsxkNgbcpiJjix2Dbo7yEYBNqVCm8f_f2CKuunF1DFdI2nFyyu7_Kw6PKIyZ3fqLIkPgfaRg4CKctihv/s512/99..jpg" width="600" height="400"/>
     
    
     
