@@ -27,7 +27,7 @@
 
 ### 래그돌  
   <img src="https://github.com/sturdyChair/asset/blob/main/cut_0.gif" width="600" height="400"/>
-- PxArticulation 사용([https://nvidia-omniverse.github.io/PhysX/physx/5.1.3/docs/Articulations.html])  
+- PxArticulation 사용[https://nvidia-omniverse.github.io/PhysX/physx/5.1.3/docs/Articulations.html]    
 - 절단된 객체에 래그돌 적용
 - 절단면에 따라 래그돌 분리
 
