@@ -67,8 +67,9 @@
    <img src="https://github.com/sturdyChair/asset/blob/main/wound_prototype.PNG" width="600" height="400"/>
 
 ### 정점 셰이더 메쉬 클리핑
+  - 스키닝 이전 정점을 가상의 타원체 local space로 전달, 타원체 내부에 포함되면 clip(혹은 다른 처리)   
 
 ### 스킨드 데칼
-
+  - 가상 타원체 공간의 x, y 좌표를 데칼 UV로 사용
 
 
