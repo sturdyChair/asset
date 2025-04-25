@@ -3,9 +3,9 @@
 ## 정적 메쉬 파괴  
 
 ### 프렉쳐 모드  
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="200" height="200"/>  
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20comb.gif" width="200" height="200"/>  
-  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20voxel.gif" width="200" height="200"/>  
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20web.gif" width="400" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20comb.gif" width="400" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/fracturemod%20voxel.gif" width="400" height="400"/>
   
 ### TODO
 
