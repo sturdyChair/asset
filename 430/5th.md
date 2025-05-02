@@ -16,8 +16,12 @@
   <img src="https://github.com/sturdyChair/asset/blob/main/430/refracture.gif" width="600" height="400"/>   
   
 ### TODO  
-- 조각 분할 단계 새분화
+- 조각 분할 단계 새분화(실시간 2중, 3중 분리)  
 
+- 얇은 벽면(ex. 유리, 담장) 분할
+  <img src="https://github.com/sturdyChair/asset/blob/main/430/ranbow%20six%20destruction.PNG" width="800" height="400"/>
+  <img src="https://github.com/sturdyChair/asset/blob/main/430/ranbow%20six%20destruction%20result.PNG" width="800" height="400"/>
+  
 ---
 
 ## 동적 메쉬 절단
