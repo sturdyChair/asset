@@ -20,8 +20,9 @@
 
 - 얇은 벽면(ex. 유리, 담장) 분할
   <img src="https://github.com/sturdyChair/asset/blob/main/430/ranbow%20six%20destruction.PNG" width="800" height="400"/>
-  <img src="https://github.com/sturdyChair/asset/blob/main/430/ranbow%20six%20destruction%20result.PNG" width="800" height="400"/>
-  [출처](https://media.gdcvault.com/gdc2016/Presentations/LHeureux_Julien_Art_Of_Destruction.pdf)
+  <img src="https://github.com/sturdyChair/asset/blob/main/430/ranbow%20six%20destruction%20result.PNG" width="800" height="400"/>  
+  
+  [The Art of Destruction in Rainbow Six: Siege (Julien L’Heureux)](https://media.gdcvault.com/gdc2016/Presentations/LHeureux_Julien_Art_Of_Destruction.pdf)
 ---
 
 ## 동적 메쉬 절단
