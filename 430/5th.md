@@ -3,10 +3,10 @@
 
 ## Ear Clip  
   <img src="https://github.com/sturdyChair/asset/blob/main/earClip.png" width="600" height="400"/>   
-1. n번 정점 기준, n-1, n, n+1 정점의 convexity(winding order가 cw인지)   
-2. convex하다면, 다른 정점이 해당 정점 내부에 존재하지 않는지   
-3. 두 조건을 모두 만족하면 출력 face에 n-1, n, n+1 추가   
-4. 정점 n을 리스트에서 제거, 반복   
+-1. n번 정점 기준, n-1, n, n+1 정점의 convexity(winding order가 cw인지)   
+-2. convex하다면, 다른 정점이 해당 정점 내부에 존재하지 않는지   
+-3. 두 조건을 모두 만족하면 출력 face에 n-1, n, n+1 추가   
+-4. 정점 n을 리스트에서 제거, 반복   
 
 ## 정적 메쉬 파괴  
 
